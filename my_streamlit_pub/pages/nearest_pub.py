@@ -6,7 +6,7 @@ st.set_page_config(
     page_title="Nearest Pub"
 )
 
-df = pd.read_csv("/home/chaitanyadubal/Downloads/FLASK/my_streamlit_pub/data/pub.csv")
+df = pd.read_csv("data/pub.csv")
 
 st.markdown('<h1>Find the top Pub\'s 🍺 near you </h1>', unsafe_allow_html=True)
 

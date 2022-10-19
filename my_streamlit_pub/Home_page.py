@@ -10,7 +10,7 @@ st.subheader("Detailed description of the pub\'s")
 
 
 
-df = pd.read_csv("/home/chaitanyadubal/Downloads/FLASK/my_streamlit_pub/data/pub.csv")
+df = pd.read_csv("data/pub.csv")
 
 
 

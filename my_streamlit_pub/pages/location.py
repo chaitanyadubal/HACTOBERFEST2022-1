@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-df = pd.read_csv("/home/chaitanyadubal/Downloads/FLASK/my_streamlit_pub/data/pub.csv")
+df = pd.read_csv("data/pub.csv")
 
 
 st.markdown('<h1>Pub\'s 🍺 in given area</h1>', unsafe_allow_html=True)
